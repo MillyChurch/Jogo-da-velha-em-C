@@ -232,7 +232,7 @@ void exibirPlacar(int scoreFinal, char p1[50], char p2[50] ){
   else{
     printf("OS CAVALHEIROS EMPATARAM");
     }
-
+	getchar();
   }
 
 void present(char *x, char *y){
@@ -243,10 +243,8 @@ void present(char *x, char *y){
   printf("JOGADOR 2, INSIRA SEU NOME:");
   scanf("%s", y);
 
-  printf("\nJOGADOR 1: %s\nJOGADOR 2: %s", x,y);
-  
-  printf("\n\nBOA SORTE!\nPRESSIONE ENTER PARA INICIAR\n");
-  getchar();
+  printf("\nJOGADOR 1: %s\nJOGADOR 2: %s\n", x,y);
+
 }
 
 //Programa Principal
