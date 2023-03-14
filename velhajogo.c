@@ -244,7 +244,8 @@ void present(char *x, char *y){
   scanf("%s", y);
 
   printf("\nJOGADOR 1: %s\nJOGADOR 2: %s", x,y);
-  printf("\n");
+  
+  printf("\n\nBOA SORTE!\nPRESSIONE ENTER PARA INICIAR\n");
   getchar();
 }
 
